@@ -1,0 +1,243 @@
+/* style */
+button{
+    cursor: pointer;
+  }
+  h2 {
+    font-weight: 700;
+    font-size: 36px;
+  }
+
+  h4 {
+    font-weight: 600;
+    font-size: 21px;
+  }
+  html{
+    box-sizing: border-box;
+  }
+  
+  html *, ::after, ::before{
+    box-sizing: inherit;
+  }
+  
+  body {
+    font-family: 'Gilroy';
+    margin: 0;
+  }
+  img {
+    display: block;
+  }
+body{
+    font-family: Roboto;
+    color: #000000;
+}
+.container{
+    width: 420px;
+    height: 2000px;
+}
+.cont-score{
+    width: 220px;
+    height: 100px;
+    background-color: #847996;
+    height: 100px;
+    border-radius: 4px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+.score-p{
+    margin: 10px 37px 0 38px;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+    color: #FFFFFF;
+    /* margin: 0; */
+    width: 145px;
+    height: 35px;
+    display: inline-block;
+}
+.score-num{
+    width: 37px;
+    height: 30px;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 1.2;
+    color: #FFFFFF;
+    margin: 15px 91px 10px 92px;
+} 
+.sec-btn{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: #D0A98F;
+    padding: 0;
+    border: 0px;
+    margin: 0 60px;
+    margin-bottom: 17px;
+}
+.sec-num{
+    max-width: 78px;
+    max-height: 42px;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 1.2;
+    margin: 129px 111px;
+}
+.click-num{
+    margin: 0;
+    padding: 0 103px 15px 103px;
+    margin-top: 14px;
+}
+
+.timer{
+    margin: 0 200px;
+    width: 20px;
+    height: 42px;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    margin-bottom: 40px;
+}
+
+.cont-restart{
+    margin: 0 120px 43px;
+}
+
+.restart-btn{
+    width: 180px;
+    height: 60px;
+    background: #A7CAB1;
+    border-radius: 10px;
+    padding: 0;
+    border: 0;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+    color: #FFFFFF;
+}
+
+.cont-click{
+    width: 240px;
+    height: 100px;
+    margin: 0 90px 50px;
+    background: #847996;
+    border-radius: 4px;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.click-p{
+    margin: 0;
+    padding: 15px 31px 0 32px;
+}
+
+@media screen and (min-width:1200px){
+  .container{
+    min-width: 1200px;
+    height: 3000px;
+}
+.cont-score{
+    background-color: #847996;
+    width: 400px;
+    height: 185px;
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+.score-p{
+    margin: 20px 82px 0 83px;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+    color: #FFFFFF;
+    /* margin: 0; */
+    width: 235px;
+    height: 55px;
+}
+.score-num{
+    width: 60px;
+    height: 50px;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+    color: #FFFFFF;
+    margin: 40px 170px 20px;
+} 
+.sec-btn{
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background-color: #D0A98F;
+    border-color: transparent;
+    padding: 0;
+    border: 0px;
+    margin: 0 auto;
+}
+.sec-num{
+    max-width: 130px;
+    max-height: 70px;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 70px;
+    margin: 215px auto;
+}
+.click-num{
+    margin: 0;
+    padding: 0 175px 15px;
+    margin-top: 11px;
+}
+
+.timer{
+    margin: 0 auto;
+    width: 40px;
+    height: 90px;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 90px;
+    margin-bottom: 50px;
+}
+
+.cont-restart{
+    margin: 20px auto 80px;
+    width: 300px;
+    height: 80px;
+}
+
+.restart-btn{
+    width: 300px;
+    height: 80px;
+    background: #A7CAB1;
+    border-radius: 10px;
+    padding: 0;
+    border: 0;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+    color: #FFFFFF;
+}
+
+.cont-click{
+    width: 400px;
+    height: 125px;
+    margin: 0 auto 90px;
+    background: #847996;
+    border-radius: 4px;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+}
+
+.click-p{
+    margin: 0;
+    padding: 15px 67px 0 68px;
+}
+.cont-sec{
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+}
+}
